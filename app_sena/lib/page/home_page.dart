@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
 
             // 🔹 Tareas: idem, solo initial
             BlocBuilder<TaskBloc, TaskState>(
-              builder: (context, state) => const TaskSuccessView(),
+              builder: (context, state) => const TaskInitialView(),
             ),
           ],
         ),

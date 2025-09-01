@@ -11,7 +11,7 @@ class TaskInitialView extends StatelessWidget {
       children: const [
         TaskCard(title: "Título de la tarea", subtitle: "Subtitulo de la Tarea"),
         SizedBox(height: 12),
-        TaskCard(title: "................", subtitle: "................"),
+        TaskCard(title: "Título de la tarea", subtitle: "Subtitulo de la Tarea"),
       ],
     );
   }
